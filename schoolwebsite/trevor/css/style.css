@@ -1,0 +1,411 @@
+#navigationBar li a:focus::before{
+    content:''!important;
+    background-color: orange !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    position:relative !important;
+    left:-2px !important;
+    top:0px !important;
+    display:inline-block !important;
+}
+
+.menu > a,#navigationBar ul li a{
+    font-weight:bold !important;
+    padding:14px !important;
+}
+
+.dropdown-menu{
+    min-width: 220px !important;
+    border-top: 2px solid orange;
+}
+
+.dropdown-menu a{
+    font-weight:normal !important;
+    padding:7px !important;
+}
+
+.dropdown-menu a:hover{
+    margin:15px !important;
+    background-color:transparent !important;
+}
+
+.navbar-brand{
+    margin-top:-60px !important;
+    margin-bottom: -60px !important;
+}
+.lr a{
+    display:inline-block !important;
+}
+.lr-btn{
+    width:120px;
+    border-radius: 40px !important;
+    padding-left: 8px !important;
+    margin-top: -12px !important;
+    margin-bottom: -12px !important;
+    color:white;
+    font-size:15px !important;
+    background-color: orange !important;
+}
+
+.lr-btn:hover{
+    color: white !important;
+    background-color: green !important;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: inline-block !important;
+    margin-top:0px !important;
+}
+
+a:hover,
+a:focus{
+    color: orange !important;
+    text-decoration: none !important;
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+a{
+    transition:0.5s lineat !important; /*define an anchor tag and let it haave a linear transition */
+}
+
+html,
+body{
+    font-family:"lato",sans-serif;/*Change the font-family: of the body and html;*/
+    font-size: 14px; /*change the font size:of the body and html;*/
+}
+/*CAROUSEL SECTION */
+.bannerSection .bannerImage{
+    height:450px;
+}
+/*END OF CAROUSEL SECTION
+
+/*MARKETING SECTION*/
+.marketingRow .fa{
+    width: 100px !important;
+    height: 97px !important;
+    color: orange !important;
+    border: 2px solid orange !important;
+    padding: 20px !important;
+    border-radius: 40px !important;
+    transition: 0.2 linear !important;
+
+}
+
+.marketingRow.fa:hover{
+    border-radius: 45% !important;
+}
+.marketingSection p{
+    max-width: 47% !important;
+    text-align: center !important;
+    line-height: 30px !important;
+}
+.marketingRow{
+    max-width: 94% !important;
+
+}
+.marketingSection .border{
+    background-color: orange !important;
+    height: 4px !important;
+    width: 40px !important;
+    margin: 10px opx !important;
+}
+/*END OF MARKETING SECTION*/
+/*ACHIEVEMENT SECTION*/
+.achievementSpotRow .fa{
+    max-width: 86px !important;
+}
+.achievementSpot{
+    padding: 40px 0px 120px 0px !important;
+}
+
+.achievementSpotRow{
+    padding-left: 90px !important;
+}
+.achievementSpot .border{
+    background-color: orange !important;
+    height: 4px !important;
+    width: 40px !important;
+}
+.achievementSpot img{
+    box-shadow: 18px 18px #dfe3ed !important;
+    width: 460px !important;
+    height: 300px !important;
+}
+.achievementSpot span{
+    color: orange !important;
+    text-align: left;
+}
+.achievementSpot p,h5{
+    text-align: left !important;
+    line-height: 40px !important;
+}
+/*END OF ACHIEVEMENT SECTION*/
+
+
+/*FOOTER SECTION*/
+.footer-main{
+    padding: 20px 0px !important;
+}
+.footer-top-box p{
+    padding: 15px !important;
+    color: white !important;
+}
+.footer-top-box ul li{
+    float: left !important;
+    margin-right: 5px !important;
+}
+.footer-top-box ul li a{
+    color: white !important;
+    display: inline-block !important;
+    width: 36px !important;
+    height: 36px !important;
+    border: 2px solid white !important;
+    text-align: center !important;
+    line-height: 32px !important;
+}
+.footer-top-box ul li a:hover{
+    color: orange !important;
+    border-color:orange !important;
+    transition: 0.2 s linear !important;
+}
+.footer-widget, .footer-link, .footer-link-contact{
+    margin-top: 15px !important;
+}
+.footer-widget h4{
+    color:  white !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+    font-weight: 700 !important;
+}
+.footer-widget p{
+    color: white !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    padding-bottom: 20px !important;
+}
+.footer-link h4{
+    color: white !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+    font-weight: 700 !important;
+}
+.footer-link ul li a{
+    color: white !important;
+    text-align: left !important;
+    display: block !important;
+    line-height: 32px !important;
+    position: relative !important;
+    padding-left: 15px !important;
+}
+.footer-link ul li a:hover{
+    color: orange !important;
+    padding-left: 20px !important;
+}
+.footer-link-contact h4{
+    color: white !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+    font-weight: 700 !important;
+}
+.footer-link-contact ul li{
+    margin-bottom: 12px !important;
+}
+.footer-link-contact ul li i{
+    position: relative !important;
+    left: 0px !important;
+    top: 5px !important;
+    padding-right: 6px !important;
+}
+.footer-link-contact ul li p{
+    color: white !important;
+    padding-left: 25px !important;
+    position: relative !important;
+}
+.footer-link-contact ul li p:hover{
+    color: orange !important;
+    padding-left: 15px !important;
+    transition: linear !important;
+}
+/*copied from my side*/
+.bgimg{
+    background-attachment: center top no-repeat fixed !important;
+    color: #fff !important;
+    background-size: auto !important;
+    background-size: cover !important;
+    padding: 30px 0px 30px 0px;
+    position: relative !important;
+}
+
+/*END OF FOOTER SECTION*/
+
+/*WIDGETS*/
+.icons-bar{
+    position: fixed !important;
+    display: flex !important;
+    flex-direction: column !important;
+    top: 50% !important;
+    right: 0% !important;
+    z-index: 100 !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50%);
+}
+.icons-social{
+    position: fixed !important;
+    display:flex !important;
+    flex-direction: column !important;
+    top: 50% !important;
+    left: 0% !important;
+    z-index: 100 !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.icons-bar a{
+    display: block !important;
+    text-align: center !important;
+    padding: 9px 9px !important;
+    transition: all 0.3s ease !important;
+    color: white !important;
+    font-size: 14px !important;
+    margin-bottom: 6px !important;
+}
+
+.icons-social a{
+    display: block !important;
+    text-align: center !important;
+    padding: 18px 16px !important;
+    transition: all 0.3s ease !important;
+    color: white !important;
+    font-size: 14px !important;
+    margin-bottom: 6px !important;
+}
+
+.icons-bar a{
+    background-color: orange !important;
+}
+
+.icons-bar a:hover{
+    background-color: green !important;
+    color: white !important;
+}
+/*END OF WIDGETS*/
+/*BANNER SECTION*/
+.bannerSection{
+    position: relative !important;
+    margin-top: 3px !important;
+}
+.bannerSection {
+    height: 200px!important;
+}
+.bannerPageSection {
+    background-size: 400px 400px !important;
+}
+.innerBannerPageSection{
+    background: rgb(26,26,26,0.9) !important;
+    background-size: 100% 100% !important;
+    height:200px !important;
+}
+.bannerContent{
+    position: relative !important;
+    top: 100px !important;
+    left: 100px !important;
+}
+.bannerContent h2,h6{
+    color: #fff !important;
+}
+.contentSection{
+    padding: 100px 0px !important;
+}
+.contentSectionRow{
+    max-width: 90% !important;
+}
+.contentSectionRow p,h3,h6{
+    text-align: left !important;
+}
+.contentSectionRow p{
+    line-height: 25px !important;
+}
+.contentSectionRow img{
+    box-shadow: #dfe3ed !important;
+}
+.contentSectionRow h6{
+    color: grey !important;
+}
+.contentSection .border{
+    background-color: orange !important;
+    width: 10px !important;
+    height: 4px !important;
+}
+
+/*END OF BANNER SECTION*/
+/*VALUE SECTION*/
+.valueSection .border{
+    width: 40px !important;
+    height: 4px !important;
+    background-color: orange !important;
+}
+.valueSectionRow{
+    max-width: 90% !important;
+}
+.valueSectionRow .fa{
+    width: 100px !important;
+    height: 97px !important;
+    color: orange !important;
+    border: 2px solid orange !important;
+    padding: 20px !important;
+    border-radius: 40px !important;
+    transition: 0.2 linear !important;
+}
+.valueSectionRow .fa:hover{
+    border-radius: 48px !important;
+}
+.valueSection{
+    padding: 80px 0px !important;
+}
+.valueSectionRow{
+    padding-top: 70px !important;
+}
+.valueSection p{
+    text-align: center !important;
+    line-height: 25px !important;
+}
+/*END OF VALUE SECTION*/
+/*STAFF SECTION*/
+.status{
+    color: orange !important;
+}
+
+.staffSection{
+    padding: 70px 0px;
+}
+
+.staffSectionRow{
+    max-width: 80% !important;
+
+}
+
+.staffSectionRow p,h6,span{
+    text-align: left !important;
+    color: gray !important;
+}
+.staffSectionRow img{
+    border-radius: 50%;
+    transition: 0.7s linear !important;
+}
+
+.staffSectionRow p{
+    line-height: 20px !important;
+}
+/*END OF STAFF SECTION*/
